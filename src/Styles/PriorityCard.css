@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.PriorityCard__container{
+    width: 500px;
+    padding: 20px;
+    height: 300px;
+    border: none;
+    background-color: var(--secondary-text-color);
+    border-radius:var(--secondary-border-radius);
+
+}
+#PriorityCard_head{
+    font-family: var(--font-family);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#PriorityCardd_paragraph{
+    font-family: var(--secondary-font-family);
+    font-size: 18px;
+}
+#ReadMore{
+    color: var(--brand-color);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Making this page responsive */
+@media all and (max-width: 100px){
+    .PriorityCard__container {
+        width: 500px;
+        height: 330px;
+    }
+}
+@media all and (max-width: 900px){
+    #PriorityCardd_paragraph {
+    font-size: 16px;
+}
+}
+@media all and (max-width: 800px){
+    .PriorityCard__container {
+        height: 340px;
+    }
+}
+@media all and (max-width: 700px){
+    .PriorityCard__container {
+        height: 260px;
+    }
+}
+@media all and (max-width: 500px){
+    .PriorityCard__container {
+        height: 300px;
+        width: 370px;
+    }
+}
+@media all and (max-width: 400px){
+    .PriorityCard__container {
+        height: 325px;
+        width: 320px;
+    }
+    #PriorityCard_head {
+        font-size: 16px;
+    }
+}
+@media all and (max-width: 330px){
+    .PriorityCard__container {
+        height: 360px;
+        width: 280px;
+    }
+}
